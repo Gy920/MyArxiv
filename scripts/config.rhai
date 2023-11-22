@@ -1,6 +1,6 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["SLAM", "Odometry", "Large-scale","Large-Scale", "Long-term",   "Optimization",  "Control", "Swarm", "Segmentation", "Life", "estimator","VPR","loc","UAV","GPS-Denied"];
-let titles_method = ["Certifiable", "Self-Supervised", "Semi-Supervised", "Unsupervised", "Fusion", "Navigation",  "Calibration", "Reinforcement", "Relocalization", "loop", "global", "outlier",
+let titles_model = ["SLAM", "Odometry", "Large-scale","Large-Scale", "Long-term",   "Optimization",  "Control", "Swarm", "Segmentation", "Life", "estimator","VPR","loc","UAV","GPS-Denied","Generation","Completion","NeRF"];
+let titles_method = ["Certifiable", "Self-Supervised", "Semi-Supervised", "Unsupervised", "Fusion", "Navigation",  "Calibration", "Reinforcement", "Relocalization", "loop", "global", "outlier", "Condition","Diffusion"
 "localization", "dynamic", "sparsification", "graph", "clique"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Shaojie Shen", "Luca Carlone", "Yoshua Bengio", "Frank Dellaert", "Wolfram Burgard", "Davide Scaramuzza", "Marc Pollefeys", "Andrew Davison", "Daniel Cremers", "Heng Yang", "Fei Gao", 
